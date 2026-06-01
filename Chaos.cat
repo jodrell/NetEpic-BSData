@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a9aa-a2eb-5b74-a29d" name="Chaos" revision="8" battleScribeVersion="2.03" authorName="Steve Jones" authorContact="stagletto@gmail.com" library="false" gameSystemId="b6ca-ebfc-974f-eaae" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a9aa-a2eb-5b74-a29d" name="Chaos" revision="9" battleScribeVersion="2.03" authorName="Steve Jones" authorContact="stagletto@gmail.com" library="false" gameSystemId="b6ca-ebfc-974f-eaae" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>IMPORTANT NOTE ON CHAOS ARMY COMPOSTITION USING THESE LISTS  (Version revision notes follow below) :
 There is a big difference between the 2nd Ed (Renegades) and NetEpic rules for army compositions - the extended NetEpic rules are highly restrictive in regards to which Chaos Power/God you select. The 2nd Ed rules are far less restrictive - basically you can pick any Power&apos;s units as long as you have a Greater Daemon of that power. For this reason the Battlescribe lists here allow you the freedom to pick as you wish - choose which ruleset you intend to use for force composition, with agreement from your opponent.
+
+v9 notes :
+Added Death Wheel stats as for some reason were complely missing in last release.
 
 v8 notes :
 Added missing special rules for Banelord Titan. Added missing weapon options &amp; special rules for Lord Of Battle. Added Daemon Engines rule to units that were missing it. Changed Daemon Engines Unit composition to allow any combination of 3 Engines as per original 2nd ruleset (NetEpic split these into 3 cards where you needed at least 2 or one type in a single card, seems illogical). Fixed missing Lord Of Change &quot;Bolt Of Change&quot; range stat. Added &quot;No First Fire vs charging Greater Daemons&quot; and &quot;Morale Test&quot; rules from Renegades to Greater Daemons. Added missing Death Dealer Tower Gun range stat.
@@ -9756,10 +9759,11 @@ Pods that land on another model (friend or foe) cause a hit with –3 TSM. The p
       <characteristics>
         <characteristic name="Type" typeId="a4c9-dbfe-e22d-4989">Superheavy</characteristic>
         <characteristic name="Move" typeId="bebf-5a70-33c4-fe7f">30cm</characteristic>
-        <characteristic name="Save" typeId="055d-0b88-bbaf-dc8c"/>
-        <characteristic name="CAF" typeId="fed2-08a4-b3f9-f4f3"/>
-        <characteristic name="Weapons" typeId="8e21-035a-6cdc-67eb"/>
-        <characteristic name="Morale" typeId="3bb5-71b6-c61b-07da"/>
+        <characteristic name="Save" typeId="055d-0b88-bbaf-dc8c">1+</characteristic>
+        <characteristic name="CAF" typeId="fed2-08a4-b3f9-f4f3">+10</characteristic>
+        <characteristic name="Weapons" typeId="8e21-035a-6cdc-67eb">Lascannon : 72cm, 2d 5+ (-2)
+Autocannon : 50cm, 4d 5+ (-1)</characteristic>
+        <characteristic name="Morale" typeId="3bb5-71b6-c61b-07da">N/A</characteristic>
         <characteristic name="Special Rules" typeId="2a20-9420-2ae5-5339"/>
       </characteristics>
     </profile>
